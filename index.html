@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://maxui.netlify.app/components/max.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="https://kit.fontawesome.com/8269a6457c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="/">
+          <div class="nav__logo">
+            <img src="./images/logo.png" alt="logo" width="200" />
+          </div>
+        </a>
+
+        <div class="nav__links">
+          <a href="#categories" class="nav__link">
+            <i class="fa-solid fa-crown"></i>
+            <span class="nav__link--text">Categories</span>
+          </a>
+          <a href="https://github.com.jalajcodes/max-quiz" class="nav__link">
+            <button class="btn btn--primary btn--outline btn--round">
+              <i class="fa-brands fa-github"></i>
+              Github
+            </button>
+          </a>
+        </div>
+      </nav>
+
+      <div class="cta container">
+        <div class="cta-text">
+          <h1>Let's take a <span>Quiz!</span></h1>
+          <p>Will you be able to score <img src="./images/max.png" /> points?</p>
+          <div class="cta-buttons fa-move">
+            <a href="#categories">
+              <button class="btn btn--primary">
+                Quiz Me&nbsp;<i class="fa-solid fa-angle-down fa-bounce"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="cta-img">
+          <img src="./images/quiz.svg" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <section class="categories container" id="categories">
+      <h2>Categories</h2>
+        <div class="grid col-autofit">
+            <a href="#" class="category">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbYNOlsuCweydQnsZpXH3ovhqaaD1JRDu19A&usqp=CAU" alt="movie" />
+              <span>Movies</span>
+            </a>
+            <a href="#" class="category">
+              <img class="img-fluid" src="https://media.proprofs.com/images/QM/user_images/1452023/1489040257.png" alt="fashion" />
+              <span>Fashion</span>
+            </a>
+            <a href="#" class="category">
+              <img src="https://cdn.images.express.co.uk/img/dynamic/4/590x/secondary/Sports-quiz-questions-test-2500465.jpg?r=1591944457948" alt="sports" />
+              <span>Sports</span>
+            </a>
+            <a href="#" class="category">
+              <img src="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/8/2016/02/25152816/Technology-Quiz.jpg" alt="tech" />
+              <span>Technology</span>
+            </a>
+          </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>
+        Made with <i class="fas fa-code fa-flip"></i> by&nbsp;<strong>Jalaj Gupta</strong>
+      </span>
+      <div class="footer__links">
+        <a href="https://twitter.com/jalajcodes"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/jalajcodes"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jalajgupta"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jalaj799@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
