@@ -1,0 +1,22 @@
+.rules {
+  &__container {
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    padding: 2rem;
+
+    li {
+      box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+      padding: 1rem;
+    }
+
+    a {
+      width: 50%;
+    }
+    button {
+      width: 100%;
+    }
+  }
+}

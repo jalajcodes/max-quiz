@@ -17,9 +17,19 @@ h2 {
   margin: 2rem 0;
 }
 
+.card__image {
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
 .container {
   max-width: 1280px;
   margin: 2rem auto;
+
+  @media screen and (max-width: 768px) {
+    margin: 2rem;
+  }
 }
 
 .header {
@@ -34,6 +44,11 @@ h2 {
     &-img {
       width: 80rem;
       height: 40rem;
+
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+
       img {
         max-width: 100%;
         max-height: 100%;

@@ -17,9 +17,18 @@ h2 {
   margin: 2rem 0;
 }
 
+.card__image img:hover {
+  transform: scale(1.1);
+}
+
 .container {
   max-width: 1280px;
   margin: 2rem auto;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 2rem;
+  }
 }
 
 .header {
@@ -35,6 +44,11 @@ h2 {
 .header .cta-img {
   width: 80rem;
   height: 40rem;
+}
+@media screen and (max-width: 768px) {
+  .header .cta-img {
+    display: none;
+  }
 }
 .header .cta-img img {
   max-width: 100%;
