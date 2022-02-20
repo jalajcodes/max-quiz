@@ -1,9 +1,12 @@
+.shadow-sm {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
 .rules {
   display: grid;
   place-items: center;
 }
 .rules__container {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   width: fit-content;
   padding: 2rem;
   border: 2px solid var(--primary);
@@ -14,7 +17,6 @@
 }
 .rules__container li {
   border: 2px solid var(--primary);
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   padding: 1rem;
 }
