@@ -1,0 +1,36 @@
+.shadow-sm {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.rules {
+  display: grid;
+  place-items: center;
+
+  &__container {
+    width: fit-content;
+    padding: 2rem;
+    border: 2px solid var(--primary);
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      border: 2px solid var(--primary);
+      margin-bottom: 2rem;
+      padding: 1rem;
+    }
+  }
+
+  a {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  button {
+    height: 4rem;
+    width: 100%;
+    font-size: 1rem;
+  }
+}
