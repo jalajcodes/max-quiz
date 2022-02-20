@@ -1,13 +1,16 @@
-.question {
+.grid-center {
   display: grid;
   place-items: center;
 }
 
-.quiz {
+.flex {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.quiz {
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 0.7rem 0.2rem rgba(0, 0, 0, 0.1);
@@ -25,25 +28,25 @@
 .quiz__info span em {
   color: var(--primary);
 }
-.quiz__options ul {
+.quiz__options {
   list-style: none;
   padding: 0;
 }
-.quiz__options ul li {
+.quiz__options li {
   background-color: var(--gray);
   padding: 1rem 8rem;
   margin-bottom: 1rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.quiz__options ul li:hover {
+.quiz__options li:hover {
   background-color: var(--gray-2);
 }
-.quiz__options ul li.correct {
+.quiz__options li.correct {
   background-color: var(--green);
   color: var(--white);
 }
-.quiz__options ul li.incorrect {
+.quiz__options li.incorrect {
   background-color: var(--red);
   color: var(--white);
 }
