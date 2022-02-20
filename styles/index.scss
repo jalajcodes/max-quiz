@@ -82,6 +82,12 @@ h2 {
 }
 
 .nav {
+  &__logo {
+    img {
+      width: 12rem;
+    }
+  }
+
   &__search {
     position: relative;
     input {
